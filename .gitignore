@@ -1,12 +1,35 @@
-CMakeLists.txt.user
+# Ignore build directory
+/build/
+#Clion
+.idea/
+cmake-build-*/
+# Ignore CMake generated files
+CMakeFiles/
 CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
 cmake_install.cmake
-install_manifest.txt
-compile_commands.json
 CTestTestfile.cmake
-_deps
-CMakeUserPresets.json
+Makefile
+
+# Ignore executable and object files
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Ignore IDE or editor-specific files (optional, depending on your editor)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore generated test files
+Testing/
